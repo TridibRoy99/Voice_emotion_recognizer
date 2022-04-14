@@ -1,6 +1,6 @@
 streamlit
 sounddevice==0.4.4
-scipy==1.8.0
+scipy==1.7.3
 pandas
 librosa==0.9.1
 glob

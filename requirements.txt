@@ -3,9 +3,7 @@ sounddevice==0.4.4
 scipy==1.7.3
 pandas
 librosa==0.9.1
-glob
-matplotlib
-json
-sklearn
-keras
-numpy
+glob==8.0.1
+matplotlib==2.1.1
+sklearn==0.24.1
+keras==2.7.0

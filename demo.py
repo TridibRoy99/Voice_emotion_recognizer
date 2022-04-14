@@ -23,7 +23,6 @@ st.set_page_config(
          'About': "Portfolio WebApp"
      }
 )
-#st.image("https://mma.prnewswire.com/media/1424320/TCG_Digital_Logo.jpg?p=twitter")
 
 st.title("The Machine that finally understands you!!")
 
@@ -57,11 +56,7 @@ if st.button(f"Click to Record"):
             loaded_model_json = json_file.read()
             json_file.close()
             loaded_model = model_from_json(loaded_model_json)
-
             loaded_model.load_weights("saved_models/Emotion_Voice_Detection_Model_v2.h5")
-            
-#             Sentiments={0:"male_calm",1:"female_calm",2:"male_calm",3:"female_calm",4:"male_calm",
-#                    5:"female_calm",6:"male_calm",7:"female_calm",8:"male_calm",9:"female_calm"}
             Sentiments={ 0:'female_angry', 1:'female_calm', 2:'female_fearful', 3:'female_happy', 4:'female_sad',
                         5:'male_angry', 6:'male_calm', 7:'male_fearful', 8:'male_happy',9:'male_sad'}
             X, sample_rate = librosa.load('output.wav', res_type='kaiser_fast',duration=2.5,sr=22050*2,offset=0.5)

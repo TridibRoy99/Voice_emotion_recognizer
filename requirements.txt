@@ -2,5 +2,5 @@ streamlit
 sounddevice==0.4.4
 scipy==1.7.3
 librosa==0.9.1
-sklearn==0.24.1
+sklearn==0.0
 keras==2.7.0

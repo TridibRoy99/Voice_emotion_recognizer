@@ -1,0 +1,11 @@
+streamlit
+sounddevice==0.4.4
+scipy==1.8.0
+pandas as pd
+librosa==0.9.1
+glob
+matplotlib
+json
+sklearn
+keras
+numpy

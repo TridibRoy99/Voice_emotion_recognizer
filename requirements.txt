@@ -5,3 +5,4 @@ librosa==0.9.1
 sklearn==0.0
 keras==2.7.0
 matplotlib==3.4.1
+tensorflow==2.8.0

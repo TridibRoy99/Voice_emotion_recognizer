@@ -11,6 +11,7 @@ import json
 from sklearn.preprocessing import LabelEncoder
 from keras.models import model_from_json
 import numpy as np
+sounddevice.query_devices()
 
 st.set_page_config(
     page_title="Voice Emotion Recognizer",
